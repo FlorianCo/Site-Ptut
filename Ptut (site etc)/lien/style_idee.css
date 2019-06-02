@@ -1,0 +1,123 @@
+body{
+    background-image: url('img/mulhouse.jpg');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-color: #BBD2E1/*rgb(184, 178, 178)*/;
+    margin: 0%;
+}
+
+/* mennnuuuu */
+.menu{
+    margin: 0px;
+    padding: 15px 0 5px 0;
+    background-color: rgb(240, 24, 24);
+    text-align: center;
+    list-style: none; 
+    box-shadow: 0px 3px 10px 8px rgba(185, 29, 29, 0.445);
+    /* position: fixed;
+    overflow: hidden; */
+}
+.menu li{
+    display: inline;
+    
+}
+.menu li a{
+    text-decoration: none;
+    border-right: 1px solid white;
+    /* margin: 20px; */
+    color: whitesmoke;
+    padding: 0 30px;
+    font-size: 18px;
+    
+}
+.menu li a:hover{
+    background-color: rgb(220, 20, 20);
+    
+}
+.menu li a:active{
+    text-decoration-line: underline;
+}
+.menu li:last-child > a{
+    border-right: none;
+}
+
+.sousmenu {
+    background-color: rgb(240, 24, 24);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+.sousle {
+    position: relative;
+    display: inline-block;
+  }
+  
+.sousle-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(36, 36, 36);
+    min-width: 160px;
+    box-shadow: 0px 10px 16px 5px rgba(185, 29, 29, 0.445);
+    z-index: 1;
+  }
+  
+.sousle-content a {
+    color: white;
+    padding: 15px 0 5px 0;
+    text-decoration: none;
+    display: block;
+}
+  
+.sousle-content a:hover {
+    background-color: rgb(220, 20, 20);
+}
+  
+.sousle:hover .sousle-content {
+    display: block;
+}
+  
+.sousle:hover .sousmenu {
+    background-color: none;
+}
+
+/* div description de page */
+.conteneureuh{
+    padding-top: 30px;
+    max-width: 60%; 
+    justify-content: center;
+    text-align: center;
+    margin-left: 18%;
+}
+.conte{
+    padding-top: 30px;
+    max-width: 60%; 
+    justify-content: center;
+    text-align: center;
+    margin-left: 18%; 
+    padding-bottom: 10px;
+}
+
+.imga{
+    margin-top: 10px;
+}
+/* logo accueil */
+.img3{ 
+    position: fixed;
+    top: 8px;
+    left: 0px;
+    width: 5%
+
+}
+main{
+    justify-content: center;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+}

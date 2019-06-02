@@ -1,0 +1,208 @@
+body{
+    /* background-image: url('img/mulhouse.jpg'); */
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-color: #BBD2E1;
+    margin: 0%;
+}
+.menu{
+    margin: 0px;
+    padding: 15px 0 5px 0;
+    background-color: rgb(240, 24, 24);
+    text-align: center;
+    list-style: none; 
+    box-shadow: 0px 3px 10px 8px rgba(185, 29, 29, 0.445);
+    /* position: fixed; */
+    /*overflow: hidden; */
+}
+.menu li{
+    display: inline;
+    
+}
+.menu li a{
+    text-decoration: none;
+    border-right: 1px solid white;
+    /* margin: 20px; */
+    color: whitesmoke;
+    padding: 0 30px;
+    font-size: 18px;
+    
+}
+.menu li a:hover{
+    background-color: rgb(220, 20, 20);
+    
+}
+.menu li a:active{
+    text-decoration-line: underline;
+}
+.menu li:last-child > a{
+    border-right: none;
+}
+
+.sousmenu {
+    background-color: rgb(240, 24, 24);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+.sousle {
+    position: relative;
+    display: inline-block;
+  }
+  
+.sousle-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(36, 36, 36);
+    min-width: 160px;
+    box-shadow: 0px 10px 16px 5px rgba(185, 29, 29, 0.445);
+    z-index: 1;
+  }
+  
+.sousle-content a {
+    color: white;
+    padding: 15px 0 5px 0;
+    text-decoration: none;
+    display: block;
+}
+  
+.sousle-content a:hover {
+    background-color: rgb(220, 20, 20);
+}
+  
+.sousle:hover .sousle-content {
+    display: block;
+}
+  
+.sousle:hover .sousmenu {
+    background-color: none;
+}
+
+.boite{
+    border-radius: 5px;
+    margin: 50px 5px 0px 5px;
+    justify-content: center;
+    text-align: center;
+    /* background-color: rgb(240, 24, 24); */
+    /* box-shadow: 0px 10px 16px 5px rgba(185, 29, 29, 0.445); */
+}
+.texte{
+    color: white;
+    margin-top: 0;
+    font-size: 55px;
+    font-family: Trebuchet MS; 
+} 
+.boit2{
+    /* width: 75%; */
+    justify-content: center;
+    text-align: center;
+}
+.non{
+    color: black;
+    font-size: 20px;
+}
+.grand{
+    background-color: rgb(240, 24, 24);
+    border-bottom: 1px solid rgb(204, 16, 16);
+}
+.img3{
+    width: 10%;
+    position: relative;
+    left: 46%;
+}
+
+/* .pre{
+    margin-top: 50px;
+    border: 3px dashed black;
+    width: 55%;
+    
+} */
+/* .portrait-content{
+    width: 50%;
+    margin-left: 45%;
+} */
+/* .img2{
+    width: 50%;
+    float: left;
+    margin-top: 5px;
+} */
+/* .boiboite{
+    margin-top: 70px;
+} */
+/* .img3{
+    
+    position: absolute;
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    width: ;
+} */
+/* .para{
+    text-align: justify;
+} */
+
+/* .input{
+    margin-top: 100px;
+    margin-left: 200px;
+} */
+
+
+/* .carte {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-top: 25px;
+  background-color: #1DD4E2;
+  
+  
+} */
+
+/* button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+} */
+
+/* .img6 {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+} */
+
+/*button:hover, a:hover {
+  opacity: 0.2;
+}*/
+/* .nom{
+    background-color: #1DD4E2;
+} */
+/* .contnaire{
+    justify-content: center;
+} */
+
+
+
+
+/* .parallax {
+    margin: 0%;
+    background-image: url('img/mulhouse.jpg');
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* .trois3{
+    margin-left: 200px;
+    margin-bottom: 10px;
+} */
